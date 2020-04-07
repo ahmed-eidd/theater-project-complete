@@ -1,0 +1,35 @@
+.venue__btns {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 5rem auto;
+
+  &__cont {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.6rem;
+  }
+
+}
+
+.venue__btn {
+  height: 10.5rem;
+  width: 10.5rem;
+  border-radius: 500px;
+  background-color: $color-primary;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+
+  &__img {
+    width: 5.5rem;
+    height: 5.3rem;
+  }
+}
